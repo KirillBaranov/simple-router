@@ -12,7 +12,7 @@ class Router {
 
     public function __construct( $routes )
     {
-        $this->request    = $_SERVER['REQUEST_URI'];
+        $this->reques = $_SERVER['REQUEST_URI'];
         $this->routes = $routes;
 
         $this->request();
